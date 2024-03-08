@@ -1,0 +1,75 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709923569
+<< poly >>
+rect 121 399 151 635
+rect 209 399 239 635
+rect 336 150 366 556
+rect 588 261 618 560
+rect 355 85 373 87
+rect 465 85 495 105
+rect 351 55 495 85
+<< metal1 >>
+rect 21 982 620 1037
+rect 157 923 203 982
+rect 69 606 115 640
+rect 254 606 282 645
+rect 545 635 611 663
+rect 583 616 611 635
+rect 69 578 380 606
+rect 542 207 592 235
+rect 290 125 332 128
+rect 75 55 109 111
+rect 287 103 332 125
+rect 287 100 329 103
+rect 22 54 75 55
+rect 111 54 621 55
+rect 22 0 621 54
+use grid  grid_0 grid
+timestamp 1709739236
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use inverter_and  inverter_0
+timestamp 1709923488
+transform 1 0 320 0 1 0
+box 0 0 320 1063
+use sky130_fd_pr__nfet_01v8_EAKVGK  sky130_fd_pr__nfet_01v8_EAKVGK_0
+timestamp 1709739236
+transform 1 0 136 0 1 250
+box -73 -176 73 176
+use sky130_fd_pr__nfet_01v8_EAKVGK  sky130_fd_pr__nfet_01v8_EAKVGK_1
+timestamp 1709739236
+transform 1 0 224 0 1 250
+box -73 -176 73 176
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_0
+timestamp 1709739236
+transform 1 0 136 0 1 785
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_1
+timestamp 1709739236
+transform 1 0 224 0 1 785
+box -109 -212 109 212
+use via_m1_p  via_m1_p_0 via
+timestamp 1709818617
+transform 1 0 316 0 1 554
+box 6 0 64 68
+use via_m1_p  via_m1_p_1
+timestamp 1709818617
+transform 1 0 317 0 1 83
+box 6 0 64 68
+use via_m1_p  via_m1_p_2
+timestamp 1709818617
+transform 1 0 577 0 1 558
+box 6 0 64 68
+use via_m1_p  via_m1_p_3
+timestamp 1709818617
+transform 1 0 575 0 1 201
+box 6 0 64 68
+<< labels >>
+rlabel metal1 21 982 620 1037 1 VDD
+rlabel space 22 0 621 55 1 VSS
+rlabel poly 121 399 151 635 1 B
+rlabel poly 209 399 239 635 1 A
+rlabel poly 589 270 618 551 1 Z
+<< end >>
