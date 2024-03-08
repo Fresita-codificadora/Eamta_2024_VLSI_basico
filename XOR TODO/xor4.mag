@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709848942
+timestamp 1709928484
 << poly >>
 rect -225 921 -99 951
 rect 85 925 211 955
@@ -47,6 +47,7 @@ rect 803 893 837 938
 rect 1278 888 1312 996
 rect 35 729 69 768
 rect 227 729 261 776
+rect 35 701 261 729
 rect 323 673 357 768
 rect 419 729 453 769
 rect 611 729 645 769
