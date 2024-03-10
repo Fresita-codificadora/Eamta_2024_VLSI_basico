@@ -1,0 +1,109 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710098415
+<< poly >>
+rect -326 -1776 -292 1440
+rect 24 27 44 71
+rect 9 -1193 44 27
+rect 1185 -443 1215 -233
+rect 5006 -499 5040 48
+rect 9 -1211 45 -1193
+rect 9 -1229 46 -1211
+rect 13 -1247 46 -1229
+rect 5118 -1886 5152 1257
+rect 5210 -2765 5268 2425
+rect 9249 883 10457 913
+rect 5422 -471 5456 54
+rect 9249 -483 9279 883
+rect 10645 -1794 10679 1453
+<< metal1 >>
+rect 4781 2363 5695 2425
+rect -323 1400 208 1438
+rect 9786 1398 10685 1449
+rect 4668 1224 5804 1266
+rect 24 32 1217 67
+rect 4938 16 5539 50
+rect -325 -113 10691 -45
+rect 1181 -266 10463 -232
+rect 4947 -392 5496 -358
+rect 10429 -1245 10463 -266
+rect -338 -1793 561 -1742
+rect 9792 -1794 10691 -1743
+rect 4670 -1892 5806 -1850
+rect 4787 -2763 5686 -2712
+use contador  contador_0
+timestamp 1710095809
+transform 1 0 2382 0 1 287
+box -2382 -287 2676 2169
+use contador  contador_2
+timestamp 1710095809
+transform -1 0 8082 0 -1 -630
+box -2382 -287 2676 2169
+use contador  contador_3
+timestamp 1710095809
+transform 1 0 2380 0 -1 -629
+box -2382 -287 2676 2169
+use contadorsinand  contadorsinand_0
+timestamp 1710095954
+transform -1 0 8082 0 1 290
+box -2382 -287 2676 2169
+use via_m1_p  via_m1_p_0
+timestamp 1709824709
+transform 1 0 -9 0 1 19
+box 6 0 64 68
+use via_m1_p  via_m1_p_1
+timestamp 1709824709
+transform 1 0 -344 0 1 -1793
+box 6 0 64 68
+use via_m1_p  via_m1_p_2
+timestamp 1709824709
+transform -1 0 10696 0 1 1385
+box 6 0 64 68
+use via_m1_p  via_m1_p_3
+timestamp 1709824709
+transform 1 0 5204 0 1 -2765
+box 6 0 64 68
+use via_m1_p  via_m1_p_4
+timestamp 1709824709
+transform 0 1 5204 -1 0 2431
+box 6 0 64 68
+use via_m1_p  via_m1_p_5
+timestamp 1709824709
+transform -1 0 10697 0 1 -1794
+box 6 0 64 68
+use via_m1_p  via_m1_p_6
+timestamp 1709824709
+transform 1 0 -343 0 1 1386
+box 6 0 64 68
+use via_m1_p  via_m1_p_7
+timestamp 1709824709
+transform 1 0 10627 0 1 -113
+box 6 0 64 68
+use via_m1_p  via_m1_p_8
+timestamp 1709824709
+transform 1 0 -346 0 1 -114
+box 6 0 64 68
+use via_m1_p  via_m1_p_9
+timestamp 1709824709
+transform 0 1 1166 -1 0 -214
+box 6 0 64 68
+use via_m1_p  via_m1_p_10
+timestamp 1709824709
+transform 1 0 5100 0 1 -1904
+box 6 0 64 68
+use via_m1_p  via_m1_p_11
+timestamp 1709824709
+transform 1 0 5096 0 1 1204
+box 6 0 64 68
+<< labels >>
+rlabel space 5116 -892 5154 -716 1 CLR
+rlabel space 5298 -394 5392 -358 1 CLK
+rlabel space 7 851 49 1392 1 CE
+rlabel space 2392 363 2474 449 1 Q0
+rlabel space 2390 -791 2472 -705 1 Q1
+rlabel space 7990 -792 8072 -706 1 Q2
+rlabel space 7990 366 8072 452 1 Q3
+rlabel poly 10645 -1794 10679 1453 1 GND
+rlabel space 4566 2363 5898 2425 1 vdd
+<< end >>
