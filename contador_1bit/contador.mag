@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1710093392
+timestamp 1710094077
 << poly >>
 rect -273 2017 108 2047
 rect -2374 1236 -2152 1267
@@ -117,7 +117,7 @@ timestamp 1709824709
 transform 1 0 -288 0 1 500
 box 6 0 64 68
 use xor4  xor4_0
-timestamp 1709928948
+timestamp 1710094077
 transform 1 0 -1959 0 1 1091
 box -323 13 1551 1078
 << end >>
