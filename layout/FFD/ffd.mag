@@ -1,0 +1,223 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709918255
+<< nwell >>
+rect -917 512 -882 1089
+rect 48 1001 149 1091
+rect 48 565 117 1001
+rect 48 514 142 565
+rect -917 511 -749 512
+rect 416 -499 690 -497
+rect -919 -503 690 -499
+rect -919 -1076 430 -503
+<< poly >>
+rect -1360 939 -1090 969
+rect -1062 939 -696 970
+rect -602 941 -461 971
+rect -3 941 245 973
+rect -1355 -383 -1325 328
+rect -1263 314 -1152 344
+rect -1263 -71 -1228 314
+rect -1089 296 -1059 425
+rect -848 111 -815 845
+rect -1093 81 -815 111
+rect -742 113 -696 939
+rect -3 722 29 941
+rect 722 169 726 171
+rect 722 134 786 169
+rect -742 83 -533 113
+rect -1263 -94 -977 -71
+rect -1262 -101 -977 -94
+rect 58 -96 285 -68
+rect -38 -98 285 -96
+rect -694 -309 -369 -279
+rect -247 -335 -164 -305
+rect -19 -956 119 -926
+rect 255 -927 285 -98
+rect 340 -98 619 -68
+rect 340 -810 370 -98
+rect 755 -286 786 134
+rect 754 -301 786 -286
+rect 717 -338 786 -301
+rect 255 -956 586 -927
+rect 620 -956 940 -927
+rect 255 -958 940 -956
+rect 997 -1012 1030 1034
+<< metal1 >>
+rect -1052 1019 536 1066
+rect 751 1051 991 1061
+rect 751 994 990 1051
+rect -650 897 -591 910
+rect -794 843 -591 897
+rect -794 837 -628 843
+rect -663 685 -628 686
+rect -996 637 -966 670
+rect -663 650 -541 685
+rect -663 584 -628 650
+rect -1362 556 -628 584
+rect -357 612 -326 640
+rect -357 578 -150 612
+rect -4 571 26 658
+rect -5 487 26 571
+rect 845 509 884 510
+rect -1400 434 -1082 475
+rect -5 457 25 487
+rect -1000 429 25 457
+rect 512 454 884 509
+rect -1306 362 -1166 390
+rect -1000 382 -970 429
+rect -1016 364 -959 382
+rect -354 372 812 401
+rect -1017 363 -959 364
+rect -1035 321 -1007 345
+rect -1032 -58 522 48
+rect -1306 -387 -434 -359
+rect 29 -366 55 -363
+rect 29 -367 58 -366
+rect -516 -388 -434 -387
+rect -474 -397 -434 -388
+rect 24 -397 58 -367
+rect -474 -399 58 -397
+rect 492 -398 528 -365
+rect 784 -398 812 372
+rect -474 -425 55 -399
+rect 492 -426 812 -398
+rect 845 -462 884 454
+rect -1258 -493 884 -462
+rect 382 -592 814 -527
+rect -1423 -916 -1332 -835
+rect 117 -874 338 -834
+rect -1433 -1002 -1423 -916
+rect -1341 -1002 -1331 -916
+rect -726 -961 -716 -893
+rect -658 -961 -648 -893
+rect 117 -902 171 -874
+rect 117 -907 164 -902
+rect 169 -903 171 -902
+rect -654 -1050 534 -1000
+rect 736 -1067 990 -1001
+<< via1 >>
+rect -1423 -1002 -1341 -916
+rect -716 -961 -658 -893
+<< metal2 >>
+rect -716 -893 -658 -883
+rect -1423 -916 -1341 -906
+rect -1341 -961 -716 -924
+rect -658 -961 -656 -924
+rect -1341 -963 -656 -961
+rect -716 -971 -658 -963
+rect -1423 -1012 -1341 -1002
+use grid#0  grid_0
+timestamp 1709824709
+transform 1 0 -850 0 1 36
+box -61 -10 259 1053
+use grid#0  grid_2
+timestamp 1709824709
+transform -1 0 386 0 -1 -23
+box -61 -10 259 1053
+use inverter_ahorasi  inverter_ahorasi_0
+timestamp 1709853986
+transform 1 0 -272 0 1 28
+box 0 0 330 1063
+use inverter_ahorasi  inverter_ahorasi_1
+timestamp 1709853986
+transform 1 0 -540 0 -1 -13
+box 0 0 330 1063
+use nor  nor_0
+timestamp 1709853516
+transform -1 0 -599 0 -1 -15
+box 0 -2 661 1063
+use nor  nor_1
+timestamp 1709853516
+transform -1 0 778 0 1 28
+box 0 -2 661 1063
+use pass_gate  pass_gate_0
+timestamp 1709853986
+transform -1 0 110 0 -1 -13
+box -1 0 321 1063
+use pass_gate  pass_gate_1
+timestamp 1709853986
+transform -1 0 760 0 -1 -13
+box -1 0 321 1063
+use pass_gate  pass_gate_2
+timestamp 1709853986
+transform 1 0 -1235 0 1 26
+box -1 0 321 1063
+use pass_gate  pass_gate_3
+timestamp 1709853986
+transform 1 0 -592 0 1 28
+box -1 0 321 1063
+use via_m1_p  via_m1_p_0
+timestamp 1709824709
+transform 1 0 -1430 0 1 438
+box 6 0 64 68
+use via_m1_p  via_m1_p_1
+timestamp 1709824709
+transform 1 0 -160 0 1 551
+box 6 0 64 68
+use via_m1_p  via_m1_p_2
+timestamp 1709824709
+transform 1 0 -938 0 1 -484
+box 6 0 64 68
+use via_m1_p  via_m1_p_3
+timestamp 1709824709
+transform -1 0 946 0 -1 -891
+box 6 0 64 68
+use via_m1_p  via_m1_p_4
+timestamp 1709824709
+transform -1 0 1040 0 -1 -1003
+box 6 0 64 68
+use via_m1_p  via_m1_p_5
+timestamp 1709824709
+transform -1 0 406 0 -1 -526
+box 6 0 64 68
+use via_m1_p  via_m1_p_6
+timestamp 1709824709
+transform 1 0 -656 0 1 904
+box 6 0 64 68
+use via_m1_p  via_m1_p_7
+timestamp 1709824709
+transform 1 0 -854 0 1 829
+box 6 0 64 68
+use via_m1_p  via_m1_p_8
+timestamp 1709824709
+transform 1 0 -1367 0 1 937
+box 6 0 64 68
+use via_m1_p  via_m1_p_9
+timestamp 1709824709
+transform -1 0 177 0 -1 -894
+box 6 0 64 68
+use via_m1_p  via_m1_p_10
+timestamp 1709824709
+transform -1 0 522 0 1 441
+box 6 0 64 68
+use via_m1_p  via_m1_p_11
+timestamp 1709824709
+transform -1 0 393 0 -1 -810
+box 6 0 64 68
+use via_m1_p  via_m1_p_12
+timestamp 1709824709
+transform -1 0 1036 0 1 992
+box 6 0 64 68
+use via_m1_p  via_m1_p_13
+timestamp 1709824709
+transform -1 0 857 0 -1 -524
+box 6 0 64 68
+use via_m1_p  via_m1_p_14
+timestamp 1709824709
+transform 1 0 -1110 0 1 415
+box 6 0 64 68
+use via_m1_p  via_m1_p_15
+timestamp 1709824709
+transform 1 0 -1370 0 1 324
+box 6 0 64 68
+use via_m1_p  via_m1_p_16
+timestamp 1709824709
+transform 1 0 -1359 0 1 -389
+box 6 0 64 68
+<< labels >>
+rlabel metal1 -1032 -58 522 48 1 GND
+rlabel metal1 -1052 1019 536 1066 1 vdd
+rlabel space -654 -1050 739 -1000 1 vdd
+<< end >>

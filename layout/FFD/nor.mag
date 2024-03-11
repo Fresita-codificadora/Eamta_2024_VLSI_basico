@@ -1,0 +1,75 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709853516
+<< poly >>
+rect 54 107 123 945
+rect 245 525 372 561
+rect 436 525 563 561
+rect 290 276 320 525
+rect 470 310 504 525
+rect 377 274 504 310
+rect 470 273 504 274
+<< metal1 >>
+rect 262 1030 292 1032
+rect 262 1001 376 1030
+rect 262 993 377 1001
+rect 262 985 292 993
+rect 263 980 292 985
+rect 346 982 377 993
+rect 106 915 325 952
+rect 484 949 518 1021
+rect 291 872 325 915
+rect 483 925 518 949
+rect 483 873 517 925
+rect 484 818 518 819
+rect 387 599 420 644
+rect 579 599 612 644
+rect 195 560 229 599
+rect 196 559 229 560
+rect 387 559 421 599
+rect 579 559 613 599
+rect 196 525 615 559
+rect 289 524 421 525
+rect 243 280 453 315
+rect 243 279 454 280
+rect 244 238 278 279
+rect 420 237 454 279
+rect 52 176 263 178
+rect 52 110 244 176
+rect 332 50 365 192
+rect 279 6 378 50
+rect 266 3 378 6
+use grid  grid_0
+timestamp 1709824709
+transform 1 0 61 0 1 8
+box -61 -10 259 1053
+use grid  grid_1
+timestamp 1709824709
+transform 1 0 380 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_0
+timestamp 1709727540
+transform 1 0 393 0 1 176
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_1
+timestamp 1709727540
+transform 1 0 305 0 1 176
+box -73 -101 73 101
+use sky130_fd_pr__pfet_01v8_527QMA  sky130_fd_pr__pfet_01v8_527QMA_0
+timestamp 1709754346
+transform 1 0 308 0 1 737
+box -161 -250 161 250
+use sky130_fd_pr__pfet_01v8_527QMA  sky130_fd_pr__pfet_01v8_527QMA_1
+timestamp 1709754346
+transform 1 0 500 0 1 737
+box -161 -250 161 250
+use via_m1_p  via_m1_p_0
+timestamp 1709824709
+transform 1 0 54 0 1 109
+box 6 0 64 68
+use via_m1_p  via_m1_p_1
+timestamp 1709824709
+transform 1 0 54 0 1 876
+box 6 0 64 68
+<< end >>

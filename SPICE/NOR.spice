@@ -1,0 +1,21 @@
+* NGSPICE file created from NOR.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_527QMA a_63_n150# a_n33_n150# a_n63_n181# w_n161_n250#
++ a_33_n176# a_n125_n150#
+X0 a_63_n150# a_33_n176# a_n33_n150# w_n161_n250# sky130_fd_pr__pfet_01v8 ad=0.465 pd=3.62 as=0.248 ps=1.83 w=1.5 l=0.15
+X1 a_n33_n150# a_n63_n181# a_n125_n150# w_n161_n250# sky130_fd_pr__pfet_01v8 ad=0.248 pd=1.83 as=0.465 ps=3.62 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NDWVGB a_15_n75# a_n15_n101# a_n73_n75# VSUBS
+X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.218 pd=2.08 as=0.218 ps=2.08 w=0.75 l=0.15
+.ends
+
+NOR
+Xsky130_fd_pr__pfet_01v8_527QMA_0 m1_195_560# a_54_107# a_245_525# m1_484_818# a_245_525#
++ m1_195_560# sky130_fd_pr__pfet_01v8_527QMA
+Xsky130_fd_pr__pfet_01v8_527QMA_1 m1_195_560# m1_484_818# A m1_484_818# A m1_195_560#
++ sky130_fd_pr__pfet_01v8_527QMA
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 a_54_107# A GND GND sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__nfet_01v8_NDWVGB_1 GND a_245_525# a_54_107# GND sky130_fd_pr__nfet_01v8_NDWVGB
+
+

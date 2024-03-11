@@ -1,0 +1,24 @@
+
+para conseguir el spice desde el layout el codigo es 
+
+
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o "nombre de su layout".spice
+
+ejemplo si el archivo mag se llama inverter":
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o inverter.spice
+
+para comparar los spice
+
+en la carpeta donde tenes el spice tenes que llegar con CD 
+	- en este momento es cd /headless/.xschem/simulations
+
+acordate que el spice que te larga el magic hay que borrarle .subckt y el .ends del final
+
+EJEMPLO
+netgen lvs untitled-3.spice /foss/designs/inverter.spice /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+este comando es
+
+netgen lvs **ruta primer archivo** **ruta segundo archivo** /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+si no hay ruta como el ejemplo se toma de la carpeta donde estas
