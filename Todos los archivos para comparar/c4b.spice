@@ -125,13 +125,12 @@ Xffd_0 m1_n894_515# ffd_0/m1_n1258_n493# xor4_0/Z m1_n894_515# m1_n410_112# m1_n
 .ends
 
 contador4bit
-Xcontador_0 contador_0/and_0/A m1_4668_1224# contador_3/ffd_0/vdd m1_4938_16# contador_3/and_0/A
-+ GND contador
-Xcontador_2 contador_3/and_0/Z m1_4668_1224# contador_3/ffd_0/vdd m1_4938_16# contador_2/and_0/Z
-+ GND contador
-Xcontador_3 contador_3/and_0/A m1_4668_1224# contador_3/ffd_0/vdd m1_4938_16# contador_3/and_0/Z
-+ GND contador
-Xcontadorsinand_0 contador_2/and_0/Z m1_4668_1224# contador_3/ffd_0/vdd m1_4938_16#
-+ GND contadorsinand
+Xcontador_0 contador_0/and_0/A m1_4668_1224# vdd m1_4938_16# contador_3/and_0/A GND
++ contador
+Xcontador_2 contador_3/and_0/Z m1_4668_1224# vdd m1_4938_16# contador_2/and_0/Z GND
++ contador
+Xcontador_3 contador_3/and_0/A m1_4668_1224# vdd m1_4938_16# contador_3/and_0/Z GND
++ contador
+Xcontadorsinand_0 contador_2/and_0/Z m1_4668_1224# vdd m1_4938_16# GND contadorsinand
 
 

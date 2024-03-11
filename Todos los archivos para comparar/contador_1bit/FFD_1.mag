@@ -1,0 +1,58 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709923654
+<< poly >>
+rect -570 1993 119 2047
+rect -570 1058 -516 1993
+rect -572 1055 -336 1058
+rect -599 980 -336 1055
+rect -599 509 -505 980
+rect -244 977 -109 1007
+rect -578 -227 -525 509
+rect -139 133 -109 977
+rect 2313 -227 2366 156
+rect -578 -280 2366 -227
+<< metal1 >>
+rect -194 2271 -10 2280
+rect -365 2230 547 2271
+rect -365 2224 -136 2230
+rect -54 2224 547 2230
+rect -365 1625 -318 2224
+rect 500 2097 547 2224
+rect -134 1560 -88 1566
+rect -134 1514 66 1560
+rect -238 1308 -166 1314
+rect -134 1308 -86 1514
+rect -238 1260 -84 1308
+rect -222 1258 -84 1260
+rect -145 1240 -95 1258
+rect 24 1111 510 1112
+rect -425 1061 510 1111
+rect -425 837 -375 1061
+rect 24 1060 510 1061
+rect 2344 554 2915 559
+rect 2229 509 2915 554
+rect -145 -371 -95 176
+rect 2865 -371 2915 509
+rect -145 -421 2915 -371
+use ffd  ffd_0
+timestamp 1709918255
+transform 1 0 1433 0 1 1078
+box -1433 -1078 1034 1091
+use inverter_ahorasi  inverter_ahorasi_0
+timestamp 1709853986
+transform 1 0 -512 0 1 620
+box 0 0 330 1063
+use via_m1_p  via_m1_p_2
+timestamp 1709824709
+transform 1 0 -164 0 1 88
+box 6 0 64 68
+<< labels >>
+rlabel space 1134 1016 1258 1126 1 GND
+rlabel space 2428 1022 2462 1196 1 vdd
+rlabel space -370 940 -336 1114 1 clk
+rlabel space 176 586 252 614 1 CLR
+rlabel space 72 1632 148 1660 1 D
+rlabel space 10 78 98 166 1 Q
+<< end >>

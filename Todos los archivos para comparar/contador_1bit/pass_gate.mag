@@ -1,0 +1,54 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709928948
+<< poly >>
+rect 97 913 223 943
+rect 53 343 83 613
+rect 235 332 265 613
+rect 50 80 175 85
+rect 50 55 176 80
+<< metal1 >>
+rect 21 982 300 1037
+rect 53 926 267 954
+rect 53 897 81 926
+rect 62 892 67 897
+rect 239 890 267 926
+rect 59 750 81 759
+rect 59 655 87 750
+rect 146 719 174 756
+rect 146 691 246 719
+rect 218 656 246 691
+rect 59 644 81 655
+rect 94 237 122 316
+rect 200 237 228 316
+rect 22 0 301 55
+use grid#1  grid_0
+timestamp 1709824709
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_0
+timestamp 1709727540
+transform 1 0 161 0 1 175
+box -73 -101 73 101
+use sky130_fd_pr__pfet_01v8_52C9FB  sky130_fd_pr__pfet_01v8_52C9FB_0
+timestamp 1709764190
+transform 1 0 160 0 1 823
+box -161 -137 161 137
+use via_m1_p  via_m1_p_0
+timestamp 1709824709
+transform 1 0 36 0 1 612
+box 6 0 64 68
+use via_m1_p  via_m1_p_1
+timestamp 1709824709
+transform 1 0 36 0 1 288
+box 6 0 64 68
+use via_m1_p  via_m1_p_2
+timestamp 1709824709
+transform 1 0 212 0 1 288
+box 6 0 64 68
+use via_m1_p  via_m1_p_5
+timestamp 1709824709
+transform 1 0 212 0 1 612
+box 6 0 64 68
+<< end >>

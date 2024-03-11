@@ -1,0 +1,129 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710120041
+<< poly >>
+rect -273 2017 108 2047
+rect -2374 1236 -2152 1267
+rect -2374 1105 -2333 1236
+rect -552 1206 -351 1236
+rect -2375 570 -2333 1105
+rect -1372 610 -1167 640
+rect -2075 500 -1816 539
+rect -2075 -157 -2036 500
+rect -1197 -255 -1167 610
+rect -391 176 -351 1206
+rect -391 -160 -352 176
+rect -273 -287 -243 2017
+rect -104 1534 56 1568
+rect -104 -171 -70 1534
+rect 2535 -153 2569 535
+rect 2626 -287 2660 151
+<< metal1 >>
+rect -462 2096 292 2142
+rect -438 1662 -262 1680
+rect -438 1652 99 1662
+rect -290 1634 99 1652
+rect -1864 1014 -1430 1110
+rect -1023 1011 -754 1154
+rect -485 1126 234 1161
+rect -485 1104 507 1126
+rect 221 1020 507 1104
+rect -770 825 -70 860
+rect -2374 578 -1703 612
+rect -894 515 -238 550
+rect 2238 502 2566 536
+rect -410 112 99 164
+rect 2326 134 2662 170
+rect -1379 57 -957 71
+rect -1394 29 -957 57
+rect -1140 28 -957 29
+rect -1140 -46 -1107 28
+rect 208 -46 263 79
+rect -1140 -74 263 -46
+rect -2070 -152 -348 -118
+rect -83 -155 2581 -121
+rect -267 -271 2644 -237
+use and  and_0
+timestamp 1709928948
+transform 1 0 -1960 0 -1 1065
+box 0 0 641 1063
+use ffd  ffd_0
+timestamp 1709928948
+transform 1 0 1433 0 1 1078
+box -1433 -1078 1034 1091
+use inverter_ahorasi  inverter_ahorasi_0
+timestamp 1709928948
+transform 1 0 -1043 0 -1 1059
+box 0 0 330 1063
+use via_m1_p  via_m1_p_0
+timestamp 1709824709
+transform 0 1 -1752 -1 0 626
+box 6 0 64 68
+use via_m1_p  via_m1_p_1
+timestamp 1709824709
+transform 1 0 -2388 0 1 564
+box 6 0 64 68
+use via_m1_p  via_m1_p_2
+timestamp 1709824709
+transform 1 0 -409 0 1 -170
+box 6 0 64 68
+use via_m1_p  via_m1_p_3
+timestamp 1709824709
+transform 1 0 -2091 0 1 -173
+box 6 0 64 68
+use via_m1_p  via_m1_p_4
+timestamp 1709824709
+transform 0 1 -1216 -1 0 -202
+box 6 0 64 68
+use via_m1_p  via_m1_p_5
+timestamp 1709824709
+transform 1 0 -424 0 1 101
+box 6 0 64 68
+use via_m1_p  via_m1_p_6
+timestamp 1709824709
+transform 0 1 -285 -1 0 -219
+box 6 0 64 68
+use via_m1_p  via_m1_p_7
+timestamp 1709824709
+transform 1 0 2601 0 1 -287
+box 6 0 64 68
+use via_m1_p  via_m1_p_8
+timestamp 1709824709
+transform 1 0 2612 0 1 116
+box 6 0 64 68
+use via_m1_p  via_m1_p_9
+timestamp 1709824709
+transform 0 1 -101 -1 0 -103
+box 6 0 64 68
+use via_m1_p  via_m1_p_10
+timestamp 1709824709
+transform 1 0 2520 0 1 -157
+box 6 0 64 68
+use via_m1_p  via_m1_p_11
+timestamp 1709824709
+transform -1 0 2576 0 -1 550
+box 6 0 64 68
+use via_m1_p  via_m1_p_12
+timestamp 1709824709
+transform 1 0 -122 0 1 814
+box 6 0 64 68
+use via_m1_p  via_m1_p_13
+timestamp 1709824709
+transform 1 0 -912 0 1 497
+box 6 0 64 68
+use via_m1_p  via_m1_p_14
+timestamp 1709824709
+transform 1 0 -288 0 1 500
+box 6 0 64 68
+use xor4  xor4_0
+timestamp 1710094077
+transform 1 0 -1959 0 1 1091
+box -323 13 1551 1078
+<< labels >>
+rlabel space -2375 564 -2333 1105 1 CE
+rlabel space -1198 -254 -1164 -220 1 so
+rlabel space -418 101 -360 169 1 Q
+rlabel space -2254 2096 292 2142 1 vdd
+rlabel space -1023 1011 -754 1161 1 GND
+<< end >>

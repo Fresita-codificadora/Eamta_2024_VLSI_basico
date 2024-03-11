@@ -107,7 +107,7 @@ Xsky130_fd_pr__nfet_01v8_EAKVGK_0 sky130_fd_pr__nfet_01v8_EAKVGK_0/a_15_n150# B 
 + VSUBS sky130_fd_pr__nfet_01v8_EAKVGK
 Xsky130_fd_pr__pfet_01v8_52K3FE_0 VDD B a_351_55# VDD sky130_fd_pr__pfet_01v8_52K3FE
 Xsky130_fd_pr__pfet_01v8_52K3FE_1 a_351_55# A VDD VDD sky130_fd_pr__pfet_01v8_52K3FE
-.ends 
+.ends
 
 contador
 Xxor4_0 xor4_0/Z and_0/B and_0/A ffd_0/vdd VSUBS xor4
