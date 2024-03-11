@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1710095809
+timestamp 1710120041
 << poly >>
 rect -273 2017 108 2047
 rect -2374 1236 -2152 1267
@@ -120,4 +120,10 @@ use xor4  xor4_0
 timestamp 1710094077
 transform 1 0 -1959 0 1 1091
 box -323 13 1551 1078
+<< labels >>
+rlabel space -2375 564 -2333 1105 1 CE
+rlabel space -1198 -254 -1164 -220 1 so
+rlabel space -418 101 -360 169 1 Q
+rlabel space -2254 2096 292 2142 1 vdd
+rlabel space -1023 1011 -754 1161 1 GND
 << end >>

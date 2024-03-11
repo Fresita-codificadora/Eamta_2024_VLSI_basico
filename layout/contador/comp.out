@@ -1,0 +1,28 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52C9FB in circuit mag/xor/xor4.spice (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52LH9B in circuit mag/xor/xor4.spice (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB in circuit mag/xor/xor4.spice (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_4AWVGD in circuit mag/xor/xor4.spice (1)(2 instances)
+
+Class mag/xor/xor4.spice (1):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: /headless/.xschem/simulations/x |Circuit 2: mag/xor/xor4.spice              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (6)                |sky130_fd_pr__pfet_01v8 (12->6)            
+sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (10->6)            
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes /headless/.xschem/simulations/xor.spice and mag/xor/xor4.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

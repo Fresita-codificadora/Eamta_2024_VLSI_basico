@@ -1,0 +1,119 @@
+* NGSPICE file created from contador.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_52C9FB w_n161_n137# a_n63_n101# a_n33_n75# a_63_n75#
++ a_n125_n75# a_33_n101#
+X0 a_n33_n75# a_n63_n101# a_n125_n75# w_n161_n137# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.233 ps=2.12 w=0.75 l=0.15
+X1 a_63_n75# a_33_n101# a_n33_n75# w_n161_n137# sky130_fd_pr__pfet_01v8 ad=0.233 pd=2.12 as=0.124 ps=1.08 w=0.75 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52LH9B a_n159_n106# a_33_n106# a_n321_n75# a_n351_n106#
++ a_n63_n101# a_159_n75# a_351_n75# a_n33_n75# a_n225_n75# a_n413_n75# a_129_n101#
++ w_n449_n175# a_63_n75# a_321_n101# a_225_n106# a_255_n75# a_n129_n75# a_n255_n101#
+X0 a_n33_n75# a_n63_n101# a_n129_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X1 a_351_n75# a_321_n101# a_255_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.233 pd=2.12 as=0.124 ps=1.08 w=0.75 l=0.15
+X2 a_159_n75# a_129_n101# a_63_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X3 a_255_n75# a_225_n106# a_159_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X4 a_n321_n75# a_n351_n106# a_n413_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.233 ps=2.12 w=0.75 l=0.15
+X5 a_n225_n75# a_n255_n101# a_n321_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X6 a_n129_n75# a_n159_n106# a_n225_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X7 a_63_n75# a_33_n106# a_n33_n75# w_n449_n175# sky130_fd_pr__pfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NDWVGB a_15_n75# a_n15_n101# a_n73_n75# VSUBS
+X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.218 pd=2.08 as=0.218 ps=2.08 w=0.75 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_4AWVGD a_n63_n101# a_159_n75# a_n221_n75# a_n33_n75#
++ a_129_n101# a_63_n75# a_n159_n101# a_n129_n75# a_33_n101# VSUBS
+X0 a_63_n75# a_33_n101# a_n33_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X1 a_n33_n75# a_n63_n101# a_n129_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.124 pd=1.08 as=0.124 ps=1.08 w=0.75 l=0.15
+X2 a_159_n75# a_129_n101# a_63_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.233 pd=2.12 as=0.124 ps=1.08 w=0.75 l=0.15
+X3 a_n129_n75# a_n159_n101# a_n221_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.124 pd=1.08 as=0.233 ps=2.12 w=0.75 l=0.15
+.ends
+
+.subckt xor4 Z a_661_924# a_277_925# vdd GND
+Xsky130_fd_pr__pfet_01v8_52C9FB_0 vdd a_661_924# a_85_925# vdd vdd a_661_924# sky130_fd_pr__pfet_01v8_52C9FB
+Xsky130_fd_pr__pfet_01v8_52C9FB_1 vdd a_277_925# a_469_925# vdd vdd a_277_925# sky130_fd_pr__pfet_01v8_52C9FB
+Xsky130_fd_pr__pfet_01v8_52LH9B_0 a_277_925# a_469_925# vdd a_85_925# a_277_925# m1_35_763#
++ m1_35_763# m1_35_763# m1_35_763# m1_35_763# a_469_925# vdd vdd a_661_924# a_661_924#
++ Z Z a_85_925# sky130_fd_pr__pfet_01v8_52LH9B
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 GND a_661_924# a_85_925# GND sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__nfet_01v8_NDWVGB_1 a_469_925# a_277_925# GND GND sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__nfet_01v8_4AWVGD_0 a_277_925# Z Z Z a_469_925# m1_512_157# a_277_925#
++ m1_321_99# a_469_925# GND sky130_fd_pr__nfet_01v8_4AWVGD
+Xsky130_fd_pr__nfet_01v8_4AWVGD_1 a_85_925# GND GND GND a_661_924# m1_321_99# a_85_925#
++ m1_512_157# a_661_924# GND sky130_fd_pr__nfet_01v8_4AWVGD
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52K3FE a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt inverter_ahorasi w_255_568# a_144_269# a_268_250# VSUBS
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 a_268_250# a_144_269# VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 a_268_250# a_144_269# w_255_568# w_255_568# sky130_fd_pr__pfet_01v8_52K3FE
+.ends
+
+.subckt pass_gate m1_21_982# a_50_55# a_53_343# a_235_332# a_97_913# VSUBS
+Xsky130_fd_pr__pfet_01v8_52C9FB_0 m1_21_982# a_97_913# a_235_332# a_53_343# a_53_343#
++ a_97_913# sky130_fd_pr__pfet_01v8_52C9FB
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 a_235_332# a_50_55# a_53_343# VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_527QMA a_63_n150# a_n33_n150# a_n63_n181# w_n161_n250#
++ a_33_n176# a_n125_n150#
+X0 a_63_n150# a_33_n176# a_n33_n150# w_n161_n250# sky130_fd_pr__pfet_01v8 ad=0.465 pd=3.62 as=0.248 ps=1.83 w=1.5 l=0.15
+X1 a_n33_n150# a_n63_n181# a_n125_n150# w_n161_n250# sky130_fd_pr__pfet_01v8 ad=0.248 pd=1.83 as=0.465 ps=3.62 w=1.5 l=0.15
+.ends
+
+.subckt nor m1_484_818# a_245_525# a_377_274# a_54_107# VSUBS
+Xsky130_fd_pr__pfet_01v8_527QMA_0 m1_195_560# a_54_107# a_245_525# m1_484_818# a_245_525#
++ m1_195_560# sky130_fd_pr__pfet_01v8_527QMA
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 a_54_107# a_377_274# VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__pfet_01v8_527QMA_1 m1_195_560# m1_484_818# a_377_274# m1_484_818# a_377_274#
++ m1_195_560# sky130_fd_pr__pfet_01v8_527QMA
+Xsky130_fd_pr__nfet_01v8_NDWVGB_1 VSUBS a_245_525# a_54_107# VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+.ends
+
+.subckt ffd a_n38_n98# m1_n1362_556# a_n1360_837# a_n694_n309# a_n19_n956# a_n602_941#
++ vdd GND
+Xpass_gate_0 vdd a_n38_n98# a_n1263_n94# a_n247_n335# a_n19_n956# GND pass_gate
+Xpass_gate_1 vdd a_n19_n956# a_717_n338# m1_n357_578# a_n38_n98# GND pass_gate
+Xpass_gate_2 vdd a_n602_941# a_n1263_n94# a_n3_722# a_n1360_837# GND pass_gate
+Xpass_gate_3 vdd a_n1360_837# m1_n1362_556# m1_n357_578# a_n602_941# GND pass_gate
+Xinverter_ahorasi_0 vdd m1_n357_578# a_n3_722# GND inverter_ahorasi
+Xinverter_ahorasi_1 vdd a_n694_n309# a_n247_n335# GND inverter_ahorasi
+Xnor_0 vdd m1_n1258_n493# a_n1263_n94# a_n694_n309# GND nor
+Xnor_1 vdd m1_n1258_n493# a_n3_722# a_717_n338# GND nor
+.ends
+
+.subckt inverter_and sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150# sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#
++ a_145_274# VDD VSS
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75# a_145_274#
++ VSS VSS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150# a_145_274#
++ VDD VDD sky130_fd_pr__pfet_01v8_52K3FE
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_EAKVGK a_15_n150# a_n15_n176# a_n73_n150# VSUBS
+X0 a_15_n150# a_n15_n176# a_n73_n150# VSUBS sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt and VDD B A Z VSUBS
+Xinverter_0 Z Z a_351_55# VDD VSUBS inverter_and
+Xsky130_fd_pr__nfet_01v8_EAKVGK_1 a_351_55# A sky130_fd_pr__nfet_01v8_EAKVGK_0/a_15_n150#
++ VSUBS sky130_fd_pr__nfet_01v8_EAKVGK
+Xsky130_fd_pr__nfet_01v8_EAKVGK_0 sky130_fd_pr__nfet_01v8_EAKVGK_0/a_15_n150# B VSUBS
++ VSUBS sky130_fd_pr__nfet_01v8_EAKVGK
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 VDD B a_351_55# VDD sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_1 a_351_55# A VDD VDD sky130_fd_pr__pfet_01v8_52K3FE
+.ends
+
+contador
+Xxor4_0 xor4_0/Z and_0/B and_0/A ffd_0/vdd VSUBS xor4
+Xinverter_ahorasi_0 ffd_0/vdd m1_n894_515# m1_n83_n155# VSUBS inverter_ahorasi
+Xffd_0 m1_n894_515# xor4_0/Z m1_n894_515# and_0/B m1_n83_n155# m1_n83_n155# ffd_0/vdd
++ VSUBS ffd
+Xand_0 ffd_0/vdd and_0/B and_0/A and_0/Z VSUBS and
+
+

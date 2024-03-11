@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1710098415
+timestamp 1710120041
 << poly >>
 rect -326 -1776 -292 1440
 rect 24 27 44 71
@@ -33,15 +33,15 @@ rect 9792 -1794 10691 -1743
 rect 4670 -1892 5806 -1850
 rect 4787 -2763 5686 -2712
 use contador  contador_0
-timestamp 1710095809
+timestamp 1710120041
 transform 1 0 2382 0 1 287
 box -2382 -287 2676 2169
 use contador  contador_2
-timestamp 1710095809
+timestamp 1710120041
 transform -1 0 8082 0 -1 -630
 box -2382 -287 2676 2169
 use contador  contador_3
-timestamp 1710095809
+timestamp 1710120041
 transform 1 0 2380 0 -1 -629
 box -2382 -287 2676 2169
 use contadorsinand  contadorsinand_0
@@ -97,13 +97,13 @@ timestamp 1709824709
 transform 1 0 5096 0 1 1204
 box 6 0 64 68
 << labels >>
-rlabel space 5116 -892 5154 -716 1 CLR
-rlabel space 5298 -394 5392 -358 1 CLK
 rlabel space 7 851 49 1392 1 CE
 rlabel space 2392 363 2474 449 1 Q0
 rlabel space 2390 -791 2472 -705 1 Q1
 rlabel space 7990 -792 8072 -706 1 Q2
 rlabel space 7990 366 8072 452 1 Q3
 rlabel poly 10645 -1794 10679 1453 1 GND
-rlabel space 4566 2363 5898 2425 1 vdd
+rlabel poly 5210 -2765 5268 2425 1 vdd
+rlabel space 5118 -1904 5152 1272 1 CLR
+rlabel space 5438 -393 8367 -359 1 CLK
 << end >>

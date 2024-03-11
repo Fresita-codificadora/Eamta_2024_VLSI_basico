@@ -11,17 +11,17 @@ node "VSS" 1 163.013 22 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "VDD" 1 159.213 21 982 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18473 804 0 0 0 0 0 0 0 0 0 0
 node "a_145_274#" 537 227.768 145 274 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10020 728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "a_145_274#" "VSS" 2.01212
-cap "VDD" "VSS" 12.8839
-cap "a_145_274#" "VDD" 1.13081
-cap "grid_0/w_n61_476#" "grid_0/a_n24_0#" -14.2127
-cap "sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "grid_0/a_n24_0#" 0.244188
-cap "grid_0/w_n61_476#" "sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 45.6094
-cap "grid_0/a_n24_0#" "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#" 26.5288
-cap "grid_0/w_n61_476#" "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#" 2.88666
-cap "sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#" 7.288
+cap "VDD" "a_145_274#" 1.13081
+cap "VSS" "VDD" 12.8839
+cap "VSS" "a_145_274#" 2.01212
 cap "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n15_n101#" "grid_0/a_n24_0#" 4.53269
-cap "grid_0/w_n61_476#" "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n15_n101#" 68.9187
+cap "sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "grid_0/a_n24_0#" 0.244188
+cap "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n15_n101#" "grid_0/w_n61_476#" 68.9187
+cap "sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "grid_0/w_n61_476#" 45.6094
+cap "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#" "sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 7.288
+cap "grid_0/w_n61_476#" "grid_0/a_n24_0#" -14.2127
+cap "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#" "grid_0/a_n24_0#" 26.5288
+cap "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_15_n75#" "grid_0/w_n61_476#" 2.88666
 merge "grid_0/a_n24_0#" "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" -179.445 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15667 -774 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "VSS"
 merge "VSS" "sky130_fd_pr__nfet_01v8_NDWVGB_0/VSUBS"
